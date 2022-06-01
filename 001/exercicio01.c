@@ -6,6 +6,6 @@ int main(){
     printf("Qual o seu nome?\n");
     scanf("%c%*c",nome);
 
-    printf("O nome é:\n %n",nome);
+    printf("O nome é:\n %c", nome);
     return 0;
 }
